@@ -1,0 +1,20 @@
+Ctrip Team 12 browser verification
+Course commit: 024c2bcef427351918168a0eb414cf907822b4ac
+Environment: Python 3.12.4 with SQLite; Microsoft Edge; Asia/Shanghai browser timezone.
+Each case started in a new browser context and used the local course server.
+
+Run 1
+01-return-date: REPRODUCED. Departure 2026-07-26; retained return 2026-07-25; duration -1 days.
+02-monthly-fares: REPRODUCED. The date picker disabled July 18, but Monthly fares accepted it and updated the search.
+03-rejected-route: REPRODUCED. Control: Nonstop only returned 2 flights. After a rejected route update: 3 flights before filtering, 0 after filtering, with original route heading.
+04-order-countdown: REPRODUCED. Same order: list loaded at 23:58:46, before tab switch 23:58:40, after tab switch 23:58:46.
+05-paid-voucher: REPRODUCED. Payment successful for CTRIP20260719723. Pending showed seeded equivalent CTRIP20260721005 and omitted CTRIP20260719723.
+06-airport-link: REPRODUCED. Chongqing link opened Beijing Capital Airport. The airport overview named Beijing as its location.
+
+Run 2 (screenshots)
+01-return-date: REPRODUCED. Departure 2026-07-26; retained return 2026-07-25; duration -1 days.
+02-monthly-fares: REPRODUCED. The date picker disabled July 18, but Monthly fares accepted it and updated the search.
+03-rejected-route: REPRODUCED. Control: Nonstop only returned 2 flights. After a rejected route update: 3 flights before filtering, 0 after filtering, with original route heading.
+04-order-countdown: REPRODUCED. Same order: list loaded at 23:58:36, before tab switch 23:58:30, after tab switch 23:58:36.
+05-paid-voucher: REPRODUCED. Payment successful for CTRIP20260719358. Pending showed seeded equivalent CTRIP20260721005 and omitted CTRIP20260719358.
+06-airport-link: REPRODUCED. Chongqing link opened Beijing Capital Airport. The airport overview named Beijing as its location.
