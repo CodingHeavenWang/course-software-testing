@@ -18,3 +18,12 @@ Run 2 (screenshots)
 04-order-countdown: REPRODUCED. Same order: list loaded at 23:58:36, before tab switch 23:58:30, after tab switch 23:58:36.
 05-paid-voucher: REPRODUCED. Payment successful for CTRIP20260719358. Pending showed seeded equivalent CTRIP20260721005 and omitted CTRIP20260719358.
 06-airport-link: REPRODUCED. Chongqing link opened Beijing Capital Airport. The airport overview named Beijing as its location.
+
+Playwright Test 1.57.0, Chromium, 2026-11-26 (Asia/Shanghai)
+The suite ran all six tests. Each reached its requirement assertion and failed on the course implementation.
+01: Expected a nonnegative trip duration. Observed -1 days.
+02: Expected July 18 to be disabled in Monthly fares. Observed an enabled date button.
+03: Expected 2 flights after applying Nonstop only. Observed 0 flights.
+04: Expected a reading no greater than 23:44:45. Observed 23:44:51 for the same order.
+05: Expected CTRIP20260719151 to be visible in Pending vouchers after successful payment. The seeded control was visible and the new order was absent.
+06: Expected the overview to identify Chongqing. Observed the Beijing Capital Airport overview.
